@@ -123,7 +123,7 @@ def main():
     while not stack.is_empty():
         print(stack.pop())
 
-    print("Empty pip:", stack.pop())
+    print("Empty pop:", stack.pop())
     print("Empty peek:", stack.peek())
 
     single_stack = Stack()
